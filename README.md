@@ -7,4 +7,5 @@ frameworks:
   <li>back-end: express mongoose bcrypt jsonwebtoken cookie-parser</li>
 </ul>
 
-![5o1s2h](https://user-images.githubusercontent.com/12101522/134605582-f62a834f-b7d3-4f3f-89c5-9567458d3bf5.gif)
+
+![5o1tov](https://user-images.githubusercontent.com/12101522/134605611-462ab761-20cd-4797-9519-ef4f2b8ae047.gif)
