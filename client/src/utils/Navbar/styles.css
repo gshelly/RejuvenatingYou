@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.navbar {
+  background-color: #1a1a1a !important;
+  color: #efeef5dc;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-brand  {
+  font-size: 20pt !important;
+  font-weight: bolder !important;
+  color: white !important;
+  padding-left: 20px;
+  /* font-family: 'Dancing Script', cursive; */
+}
+.navbar a {
+  font-size: 1.3rem;
+  font-weight: bolder;
+  color: white !important;
+  text-transform: capitalize !important;
+}
+.navbar a:hover {
+  color: red !important;
+}
+.nav-link {
+  color: red !important;
+}
+
+.menu-active {
+  font-weight: bold;
+  border-bottom: 1px solid #565387;
+}
+.navbar-toggler-icon {
+  border: white ;
+} 
+ .navbar-toggler {
+  border: white ;
+} 
+
+.navbar-btn {
+  border: none;
+  color: white;
+  background-color: transparent;
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+.navbar-text {
+  color: white !important;
+  background-color: transparent;
+  font-size: 1.3rem;
+  padding-right: 30px;
+  font-weight: bolder;
+}
+
+.navbar-btn:hover {
+  color: red !important;
+}
+
+
+@media (max-width: 991px) {
+  .navbar-brand {
+    font-size: 1.2rem !important;
+  }
+  .menu-active {
+    font-weight: bold;
+    border-bottom: none;
+  }
+}

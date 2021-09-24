@@ -1,0 +1,80 @@
+/* * {
+  margin: 0px;
+  padding: 0px;
+} */
+
+@keyframes animatedBackground {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100% 0;
+  }
+}
+.animate-area {
+  height: 110vh;
+  background-size:contain;
+  background-image: url("./images/backgroundImage3.jpeg");
+  background-position: 0px 0px;
+  background-repeat: repeat-x;
+  animation: animatedBackground 20s linear infinite alternate;
+}
+
+#MainbackImage { 
+  width: 100%;
+  height: 650px;
+  /* margin-left: 700px; */
+  background-size:cover;
+  background-position: 0px 0px;
+  background-repeat: no-repeat; 
+  background-image: url("./images/MainBackImage1.png")
+  
+}
+
+.mainPageButton {
+  /* width:60px; */
+  padding: 10px;
+  margin: 0px 10px;
+  background-color: #3f51b5;
+  border: none;
+  border-radius: 0.5rem;
+  color: white;
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  transition: 0.2s transform ease-in-out;
+  will-change: transform;
+  z-index: 0;
+  height: 40px;
+  font-size: 11pt;
+  font-weight: 500;
+}
+
+.mainPageButton::after {
+  background-color: #ffcd56;
+  border: none;
+  border-radius: 0.5rem;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-100%, 0) rotate(10deg);
+  transform-origin: top left;
+  transition: 0.2s transform ease-out;
+  will-change: transform;
+  z-index: -1;
+}
+
+.mainPageButton:hover::after {
+  transform: translate(0, 0);
+}
+
+.mainPageButton:hover {
+  /* border: 2px solid transparent; */
+  color: white;
+  transform: scale(1.05);
+  will-change: transform;
+}
